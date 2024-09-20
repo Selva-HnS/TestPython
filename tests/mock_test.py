@@ -1,5 +1,5 @@
 import unittest
-import mock
+from unittest import mock  # Correct import for Python 3
 from .context import src
 
 class RandomTest(unittest.TestCase):
