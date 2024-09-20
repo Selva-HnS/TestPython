@@ -1,6 +1,7 @@
 import unittest
 import HtmlTestRunner
-from .context import src
+#from .context import src
+from context import src  # Absolute import
 
 class SumTest(unittest.TestCase):
     def test_Sum(self):
